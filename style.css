@@ -1,0 +1,103 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width: 850px;
+  background-color: rgba(0,0,0,0.6);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+header, nav{
+  text-align: center;
+}
+
+.logo{
+  width: 180px;
+  height: auto;
+  margin-top: 60px;
+}
+
+.logo-text{
+  font-size: 21px;
+  color: lime;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+.sfondobutton{
+  background-color: lime;
+  width: 650px;
+  height: 30px;
+  margin-left: 100px;
+}
+
+.button{
+  font-size: 10px;
+  padding: 1px;
+  margin-top:6px;
+}
+
+.checkbox{
+  color:white;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.indirizzo{
+  color: white;
+  font-size: 11px;
+  margin-top: 1px;
+  margin-left: 100px;
+}
+
+.indirizzo:before{
+  content:"\21A6";
+}
+
+.status{
+  color: white;
+  font-size: 11px;
+  margin-left: 100px;
+}
+
+.colortext1{
+  background-color:rgb(245,180,83);
+  margin-left: 100px;
+  margin-top: 2px;
+  border-radius: 5px;
+  border-color:rgb(245,180,83);
+  border-style: solid;
+  width: 230px;
+}
+
+.colortext2{
+  background-color:rgb(30,195,30);
+  margin-left: 100px;
+  margin-top: 2px;
+  border-radius: 5px;
+  border-color:rgb(30,195,30);
+  border-style: solid;
+  width: 400px;
+}
+
+.colortext3{
+  background-color:rgb(190,65,65);
+  margin-left: 100px;
+  margin-top: 2px;
+  border-radius: 5px;
+  border-color:rgb(190,65,65);
+  border-style: solid;
+  width: 100px;
+}
+
+footer{
+  margin-top: 40px;
+  margin-left: 100px;
+  color: white;
+}
